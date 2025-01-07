@@ -1,76 +1,80 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm Shrishti, a Computer Science student at IIIT Sri City with a passion for merging tech and design to create impactful projects. As Design Lead at IOTA and an active member of the design team at IIITS, I focus on web development, UI/UX, and collaborative platforms. Through my work, I've helped improve project efficiency and driven engagement across various initiatives. I love building solutions that make a difference—like BachavSetu, a disaster management app, and SkillHub, a freelancer collaboration platform. I also lead workshops to share my skills and help others grow. Being recognized at national hackathons motivates me to keep innovating and contributing to projects that matter.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Aug 2023 - Present",
+    role: "Design Lead",
+    company: "IOTA",
+    description: `Directed 5+ collaborative projects, contributing significantly to web development and design, boosting project outcomes by 30%. Led 6+ skill-enhancement workshops, acquiring and honing diverse technical and design skills.`,
+    technologies: ["Canva", "Figma", "Adobe Creative Suite"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Mar 2023 - Apr 2023",
+    role: "Design Core",
+    company: "IIIT Sri City",
+    description: `Designed posters, merchandise for the Annual Techno-Cultural Fest of IIITS, enhancing branding and visibility. Crafted 10+ social media posts, reaching 80,000+ views and receiving recognition from IIITian Network's social media page`,
+    technologies: ["Canva", "Figma", "Adobe Creative Suite"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "SkillHub",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Engineered a Freelancer Collaboration Platform which connects freelancers & employers, enabling the seamless posting of jobs, bidding on projects, and providing reviews for services rendered. Implemented a detailed analytics system for admin, along with providing key insights into the database. Deployed Redux store for better context management across the application and seamless user experience.",
+    technologies: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "ExpressJS",
+      "NodeJS",
+      "MongoDB",
+    ],
+    link: "https://github.com/codegasms/skillhub",
   },
   {
-    title: "Task Management App",
+    title: "Nexus",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a Student Collaboration Platform which empowers students success by providing them with a platform to connect with others and seek help for their projects.Added a hiring feature, which students can leverage for many benefits. Made a collaborative hiring feature with dynamic state management & live feedback. Integrated WebSockets (socketio) to implement live chat feature, providing real-time communication.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Express",
+      "EJS",
+      "NodeJS",
+      "MongoDB",
+    ],
+    link: "https://github.com/FSD-Project-Group21/NEXUS",
   },
   {
-    title: "Portfolio Website",
+    title: "Dacoid",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      " Created a Dynamic Event Calendar Application that allows users to manage events and view them in an orderly manner in a calendar. Designed the platform to handle CRUD, drag-n-drop & search filtering of events for better user experience. Added support for exporting data in various formats like json & csv",
+    technologies: ["NextJS", "TypeScript", "TailwindCSS"],
+    link: "https://github.com/shrishti0308/dacoid",
   },
   {
-    title: "Blogging Platform",
+    title: "BachavSetu",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      " Built a Disaster Management & Rescue application for the Smart India Hackathon 2024. Applied features to connect Rescue teams with stranded people & streamlines rescue operations and hence reduce casualties by providing support pre & post disaster Built a mesh network using bluetooth to connect stranded people without network connectivity",
+    technologies: ["Flutter", "Dart", "Python"],
+    link: "https://github.com/dot-config-IIITS/application-SIH-BachavSetu",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 9555842737 ",
+  email: "shrishti.m22@iiits.in",
 };
